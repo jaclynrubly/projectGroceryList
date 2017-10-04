@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Grocery List</title>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.js"
+                integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                crossorigin="anonymous"></script>
+        
+        <link rel = "stylesheet" href ="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+        
+        <script src="https://use.fontawesome.com/ebdef4cc01.js"></script>
+                
+        <script src="groceries.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    
+    <body>
+        
+       
+
+        <div class="input">
+<h3>Enter Item:</h3>
+<input type="text" class="custinput" id="item-input" placeholder="Enter shopping item..." autofocus>
+<button type="submit" class="btn">add</button>
+</div>
+
+<div class="list">
+<h3>List:</h3>
+<table class="items">
+<thead>
+<tr>
+<th class="edit" colspan="3"><span>edit</span></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
+        
+    </body>
+</html>
